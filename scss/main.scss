@@ -9,6 +9,20 @@ $enable-negative-margins: true !default;
 $primary: rgb(80, 80, 255);
 $secondary: rgb(180, 44, 180);
 
+//Spacing
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 2,
+    5: $spacer * 4,
+    6: $spacer * 6,
+);
+
+
+
 //Variables
 @import '../node_modules/bootstrap/scss/variables';
 @import '../node_modules/bootstrap/scss/mixins';
