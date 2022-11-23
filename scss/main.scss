@@ -1,1 +1,26 @@
+@import '../node_modules/bootstrap/scss/functions';
+
+
+//Globals - Taken from variables file - unnaffected by anything
+$enable-gradients: true !default;
+$enable-negative-margins: true !default;
+
+//Theme colours
+$primary: rgb(80, 80, 255);
+$secondary: rgb(180, 44, 180);
+
+//Variables
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/mixins';
+
+//Custom colours
+$custom-colors: (
+    "contrast": rgb(255, 255, 0),
+);
+
+//merge
+$theme-colors: map-merge($theme-colors, $custom-colors );
+$theme-colors: map-remove($theme-colors, "danger", "warning", "success", "info");
+
+
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
