@@ -6,19 +6,20 @@ $enable-gradients: true !default;
 $enable-negative-margins: true !default;
 
 //Theme colours
-$primary: $secondary: rgb(180, 44, 180);
+$primary: rgb(50, 51, 56);
+$secondary: rgb(180, 44, 180);
 
-    //Spacing
-    $spacer: 1rem;
-    $spacers: (
-        0: 0,
-        1: $spacer * .25,
-        2: $spacer * .5,
-        3: $spacer,
-        4: $spacer * 2,
-        5: $spacer * 4,
-        6: $spacer * 6,
-    );
+//Spacing
+$spacer: 1rem;
+$spacers: (
+    0: 0,
+    1: $spacer * .25,
+    2: $spacer * .5,
+    3: $spacer,
+    4: $spacer * 2,
+    5: $spacer * 4,
+    6: $spacer * 6,
+);
 
 //Radius
 
