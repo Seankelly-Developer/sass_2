@@ -9,6 +9,8 @@ $enable-negative-margins: true !default;
 $primary: rgb(50, 51, 56);
 $secondary: rgb(180, 44, 180);
 
+
+
 //Spacing
 $spacer: 1rem;
 $spacers: (
@@ -29,12 +31,6 @@ $border-radius-lg: 50rem;
 $border-radius-xl: 20rem;
 $border-radius-2xl: 2rem;
 $border-radius-pill: 50rem;
-
-$my-sexy-border: 25rem;
-
-
-
-
 
 //Variables
 @import '../node_modules/bootstrap/scss/variables';
